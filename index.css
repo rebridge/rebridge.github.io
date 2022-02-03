@@ -1,0 +1,168 @@
+/*
+ *Name: [Robby Bridges]
+ *
+ */
+ body {
+     background-color: #fff;
+     color: #222222;
+     margin: 0;
+     padding: 0;
+
+     font-family: 'Avenir Next', 'HelveticaNeue-Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+     font-size: 1.125em;
+     margin-top: 0;
+     font-weight: normal;
+
+     border-top: 3px solid #0dd14b;
+     word-wrap: break-word;
+     -webkit-text-size-adjust: 100%;
+ }
+
+ #mastheadbackground {
+     height: 165px;
+     margin-bottom: -175px;
+     background-color: #202020;
+ }
+
+ a, a:active, a:visited {
+     color: #0cad3f;
+ }
+
+#masthead {
+    height: 100px;
+    margin-bottom: -10px;
+    color: #fff;
+
+}
+
+
+#masthead h1 a,
+#masthead h1 a:active,
+#masthead h1 a:visited {
+    font-weight: normal;
+    font-size: 1.25em;
+    margin-top: 0;
+    padding-top: 0.5em;
+    margin-bottom: 0.25em;
+    text-decoration: none;
+    color: #fff
+}
+
+
+#masthead a,
+#masthead a:active,
+#masthead a:visited {
+    color: #0dd14b;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #202020;
+    padding: 20px 10px;
+}
+
+.header a {
+    float: left;
+    color: #0dd14b;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header a.logo {
+    font-size: 25px;
+    font-weight: normal;
+    color: #0dd14b;
+}
+
+.header a:hover {
+    background-color: #0dd14b;
+    color: black;
+}
+
+.header a.active {
+    background-color: #0dd14b;
+    color: black;
+}
+
+.header-right {
+    float: left;
+}
+
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header-right {
+        float: none;
+    }
+}
+
+.about {
+   
+    text-align: center;
+}
+article {
+    display: block;
+    line-height: 1.6;
+    margin-top: .5em;
+    padding: 20px;
+    
+}
+
+section#posts {
+    position: relative;
+    display: block;
+    width: 700px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 0;
+    line-height: 1.25;
+    font-weight: 550;
+    text-align: center;
+}
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 0;
+    line-height: 1.25;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 1.25em;
+    margin-bottom: .25;
+    line-height: 1.25;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 1em;
+    margin-bottom: .5;
+    line-height: 1.25;
+    font-weight: 500;
+}
+.button {
+    background-color: #202020;
+    border: none;
+    color: #0dd14b;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20;
+}
+
+footer {
+    margin: 2.5em 0;
+    font-size: 13px;
+}
+
+footer p { margin: 0.5em;}
