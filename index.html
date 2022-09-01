@@ -1,40 +1,100 @@
 <!DOCTYPE html>
-    <!--
+<!--
       -Name: [Robby Bridges]
       - to post to public change perms to include the user allUsers
       -->
-    <html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <meta charset="UTF-8" />
+        <meta charset="UTF-8"/>
         <meta content="description" name="Robby Bridges">
-        <link href="index.css" rel="stylesheet" type="text/css" />
-        <title>rebridge.net</title>
+        <link rel="stylesheet" href="assets/css/all.min.css"/>
+        <link rel="stylesheet" href="assets/css/index.css"/>
+        <title>Robby Bridges</title>
     </head>
-    <body style="Background-color:#FFFFFF">
-        <div class="header">
-            <a href="#default" class="logo">Robby Bridges</a>
-            <div class="header-right">
-              <a href="index.html">Home</a>
-              <a href="projects.html">Projects</a>
-              <a href="resume.pdf" target="_blank">Resume</a>
-            </div>
-          </div>
-          <section id="posts">
-        <article class="about">
-            <h1>About</h1>
-            <p>
-                I am a Computer Science major at North Carolina State University.
-                I have been heavily involved in CRU at NCSU and lead a Bible Study for Freshman on West Campus. 
-                I enjoy racquetball, baseball, and hanging out with friends.
-                I lived my whole life in Winston-Salem NC before moving to Raleigh for college.
-            </p>
-        </article>
-        
-        <footer style="text-align: center;">
-            <p>        Contact me via email:
-                <a href="mailto:rebridge@ncsu.edu">rebridge@ncsu.edu</a>
-            </p>
+    <body>
+        <div class="grid">
+            <nav class="header">
+                <div class="logo">
+                    <a href="index.html">
+                        Robby Bridges
+                    </a>
+                </div>
+                <div class="left-nav">
+                    <div class="nav-item">
+                        <a href="resume.pdf" target="_blank">
+                            Resume
+                        </a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="mailto:rebridge1221@gmail.com">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="https://www.linkedin.com/in/robby-bridges/">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="https://github.com/rebridge">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <section class="about">
+            <article>
+                <h1>About Me</h1>
+                <p>Hey! My name is Robby Bridges, and I am a year-round software engineering intern at SAS. I am pursuing a Bachelor's Degree in Computer Science from NC State and will be graduating in December 2022. I am a software engineer with industry experience using Java, Docker, Kubernetes, and many other tools to produce quality enterprise web applications in the cloud.
+                    <ul>Some things I've been enjoying lately:
+                        <li> Learning new Software Engineering Tools and Practices (DevOps Practices, React Web Development, etc.)</li>
+                        <li> Baseball, Running, Racquetball, Spikeball, and really any other athletic activity</li>
+                        <li> Taking time away from screens to learn through reading nonfiction books</li>
+                        <li> Actively volunteering with Cru on NC State's campus</li>
+                    </ul>
+                </p>
+            </article>
+        </section>
+
+        <section id="projects">
+            <article>
+                <h1>Projects</h1>
+                <h2>Spotify Top Songs of the Month</h2>
+                <p>I created a Python script to collect a Spotify user's most played songs and add them to a playlist of their choosing -
+                    <a href="https://github.com/rebridge/spotify_project">GitHub</a>
+                </p>
+                <h3>Initial Version</h3>
+                <p>This project was my first experiment with python and specifically the selenium module -
+                    <a href="https://github.com/rebridge/monthly-top-songs-for-spotify">GitHub</a>
+                </p>
+            </article>
+        </section>
+
+        <section class="skills">
+            <article>
+                <h1>Skills</h1>
+                <ul>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>Docker</li>
+                    <li>Git</li>
+                </ul>
+            </article>
+        </section>
+
+        <footer>
+            <a class="footer-item" href="mailto:rebridge1221@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a class="footer-item" href="https://www.linkedin.com/in/robby-bridges/">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a class="footer-item" href="https://github.com/rebridge">
+                <i class="fa-brands fa-github"></i>
+            </a>
         </footer>
-    </section>
     </body>
 </html>

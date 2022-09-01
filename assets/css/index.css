@@ -1,0 +1,131 @@
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+body {
+    background-color: #fff;
+    color: #222222;
+    margin: 0;
+    padding: 0;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.125em;
+    margin-top: 0;
+    font-weight: normal;
+
+    /* border-top: 3px solid #0dd14b; */
+    word-wrap: break-word;
+    -webkit-text-size-adjust: 100%;
+}
+
+a, a:active, a:visited {
+    color: #0cad3f;
+}
+
+.grid {
+    background-color: #202020;
+    display: grid;
+    grid-template-columns: .18fr .64fr;
+    justify-items: space-around;
+    align-items: center;
+}
+
+.left-nav {
+    display: flex;
+}
+
+.header {
+    /* max-width: 700px;
+    min-width: 200px; */
+    grid-column: 2;
+    padding: 20px 5%;
+    position: sticky;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.header a {
+    /* float: left; */
+    color: #0dd14b;
+    font-weight: bold;
+    padding: 12px;
+    margin: 3px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 5px;
+    border-radius: 4px;
+    background-color: #222222;
+}
+
+
+.header a:hover {
+    background-color: #0dd14b;
+    color: black;
+}
+
+.header a.active {
+    background-color: #0dd14b;
+    color: black;
+}
+
+
+
+
+article {
+    display: block;
+    line-height: 1.6;
+    margin-top: .5em;
+    padding: 20px;
+}
+
+section {
+    position: relative;
+    display: block;
+    width: 700px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 1.4em;
+    margin-bottom: 0;
+    line-height: 1.25;
+    font-weight: 550;
+    text-align: left;
+}
+h2 {
+    font-size: 1em;
+    margin-bottom: 0;
+    line-height: 1.25;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 1.25em;
+    margin-bottom: .25;
+    line-height: 1.25;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 1em;
+    margin-bottom: .5;
+    line-height: 1.25;
+    font-weight: 500;
+}
+
+footer {
+    margin: 2.5em 0;
+    font-size: 3rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-item {
+    padding: 3%;
+}
